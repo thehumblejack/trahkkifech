@@ -1,0 +1,2 @@
+import{f as t}from"./chunk-ENK4YSX5.mjs";t();function a(e,o){return{description:"Alttools is your go-to solution for documenting and curating a wide range of content, including blogs, tools, ideas, and more. With over 200 tools and resources available.",socialImage:"https://framerusercontent.com/assets/k771GimcD38lO3k6Msz8IPVPiA.png",title:"Alttools - The No-Code Universe with Curated Tools"}}export{a};
+//# sourceMappingURL=chunk-TXNJRJNY.mjs.map
