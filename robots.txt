@@ -1,0 +1,9 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: http://parklanecph.com/sitemap_index.xml
+Sitemap: http://parklanecph.com/en/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

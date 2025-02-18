@@ -1,0 +1,112 @@
+body#tinymce.mce-content-body,
+div.wpnordic-modal-content .wpnordic-modal-content-inner .inner-content {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12pt;
+	line-height: 1.5;
+}
+
+body#tinymce.mce-content-body br{
+	line-height: 0;
+	font-size: 0;
+}
+
+body#tinymce.mce-content-body h2,
+body#tinymce.mce-content-body h3,
+body#tinymce.mce-content-body h4,
+body#tinymce.mce-content-body h5,
+body#tinymce.mce-content-body h6 {
+	text-transform: none;
+	font-weight: 600;
+	margin-bottom: 0%;
+	position: relative;
+	z-index: 9998;
+	line-height: 1.25;
+}
+
+
+
+/*===============================================
+ =          CTA (from editor)				  =
+===============================================*/
+body#tinymce.mce-content-body .snapnote-cta {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	width: 100%;
+}
+
+body#tinymce.mce-content-body .snapnote-cta:hover {
+	text-decoration: none;
+	color: var(--hover-text-color);
+	background-color: var(--hover-bg-color);
+}
+
+body#tinymce.mce-content-body .snapnote-cta.size-small {
+	max-width: 75px;
+}
+body#tinymce.mce-content-body .snapnote-cta.size-medium {
+	max-width: 125px;
+}
+body#tinymce.mce-content-body .snapnote-cta.size-large {
+	max-width: 200px;
+}
+body#tinymce.mce-content-body .snapnote-cta.size-content {
+	max-width: fit-content;
+}
+
+body#tinymce.mce-content-body .position-left {
+	margin-right: auto;
+}
+
+body#tinymce.mce-content-body .position-center {
+	margin-inline: auto;
+}
+
+body#tinymce.mce-content-body body#tinymce.mce-content-body.position-right {
+	margin-left: auto;
+}
+
+body#tinymce.mce-content-body .box-shadow-none {
+	box-shadow: none;
+}
+body#tinymce.mce-content-body .box-shadow-light {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+body#tinymce.mce-content-body .box-shadow-medium {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+body#tinymce.mce-content-body .box-shadow-heavy {
+	box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+body#tinymce.mce-content-body .border-thickness-none {
+	border-width: 0;
+}
+
+body#tinymce.mce-content-body .border-thickness-light {
+	border-width: 2px;
+	border-style: solid;
+}
+
+body#tinymce.mce-content-body .border-thickness-medium {
+	border-style: solid;
+	border-width: 4px;
+}
+
+body#tinymce.mce-content-body.border-thickness-heavy {
+	border-style: solid;
+	border-width: 6px;
+}
+
+body#tinymce.mce-content-body img.emoji, body#tinymce.mce-content-body img.wp-smiley{
+	display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
